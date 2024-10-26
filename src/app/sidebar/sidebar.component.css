@@ -1,0 +1,66 @@
+
+
+article{
+    font-family: 'Arial', sans-serif;
+   
+}
+
+.sidebar {
+    
+    background-color: #003366; /* Azul oscuro */
+    color: white;
+    padding: 30px 20px;
+    box-shadow: 2px 0 10px rgba(0, 0, 0, 0.2);
+    height: 100vh;
+ 
+  
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    width: 60%; /* Ajustar el tamaño del logo */
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8em;
+    margin-bottom: 40px;
+    font-weight: bold; /* Mayor énfasis en el título */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 15px 0;
+}
+
+a {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 12px 15px; /* Más padding para un área clickeable más grande */
+    border-radius: 8px; /* Bordes más suaves */
+    transition: background-color 0.3s, transform 0.2s; /* Añadido efecto de transformación */
+}
+
+a img {
+    width: 24px; /* Tamaño más consistente de los iconos */
+    margin-right: 10px;
+}
+
+a:hover {
+   background-color: #1abc9c; /* Color de fondo de la opción activa */
+    transform: scale(1.02); /* Efecto de escala al pasar el ratón */
+}
+
+.activebutton {
+    background-color: #1abc9c; /* Color de fondo de la opción activa */
+ 
+    
+    font-weight: bold; /* Resaltar el texto del botón activo */
+}
